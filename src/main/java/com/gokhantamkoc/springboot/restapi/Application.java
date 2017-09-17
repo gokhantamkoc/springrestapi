@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.gokhantamkoc.springrestservice.hello")
+@ComponentScan(basePackages = "com.gokhantamkoc.springboot.restapi")
 public class Application {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);

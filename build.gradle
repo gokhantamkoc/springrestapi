@@ -36,5 +36,5 @@ dependencies {
 }
 
 bootRun {
-    main = 'com.gokhantamkoc.springrestservice.hello.Application'
+    main = 'com.gokhantamkoc.springboot.restapi.Application'
 }
