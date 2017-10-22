@@ -13,7 +13,7 @@ This repository is a created for developing a RESTful API.
 1. Build a jar file for this app.
 2. Create a folder.
 3. Put the Dockerfile and the *.jar file to the created folder
-4. run 'sudo docker build -t springrestapi  .' to create the image.
+4. run ```sudo docker build -t springrestapi  .``` to create the image.
 5. run 'sudo docker run --rm -p 9000:8080 --name springrestapi-instance-01 --detach springrestapi' command to start your app.
 6. Open your browser and go to http://localhost:9000/api/greeting
 
